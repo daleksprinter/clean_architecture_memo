@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"./infrastructure"
+	"github.com/daleksprinter/clean_todo/server/infrastructure"
 )
 
 func main() {

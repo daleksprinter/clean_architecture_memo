@@ -1,7 +1,7 @@
 package database
 
 import (
-	"../../domain"
+	"github.com/daleksprinter/clean_todo/server/domain"
 	"github.com/jinzhu/gorm"
 )
 
@@ -29,7 +29,7 @@ func (db *MemoRepository) Store(memo *domain.Memo) (id int, err error) {
 		return
 	}
 
-	return
+	return int(m.ID), err
 }
 
 func (db *MemoRepository) FindAll() (memos domain.Memos, err error) {

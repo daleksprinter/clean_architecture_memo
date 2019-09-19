@@ -1,7 +1,7 @@
 package usecase
 
 import (
-	"../domain"
+	"github.com/daleksprinter/clean_todo/server/domain"
 )
 
 type MemoRepository interface {

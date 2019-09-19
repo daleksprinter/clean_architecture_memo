@@ -1,7 +1,7 @@
 package infrastructure
 
 import (
-	"../interfaces/database"
+	"github.com/daleksprinter/clean_todo/server/interfaces/database"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 )
