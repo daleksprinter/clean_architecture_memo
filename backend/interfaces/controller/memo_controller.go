@@ -5,9 +5,9 @@ import (
 
 	"encoding/json"
 
-	"github.com/daleksprinter/clean_todo/server/domain"
-	"github.com/daleksprinter/clean_todo/server/usecase"
-	"github.com/daleksprinter/clean_todo/server/interfaces/database"
+	"github.com/daleksprinter/clean_todo/backend/domain"
+	"github.com/daleksprinter/clean_todo/backend/usecase"
+	"github.com/daleksprinter/clean_todo/backend/interfaces/database"
 	"github.com/jinzhu/gorm"
 )
 

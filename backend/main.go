@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/daleksprinter/clean_todo/server/infrastructure"
+	"github.com/daleksprinter/clean_todo/backend/infrastructure"
 )
 
 func main() {

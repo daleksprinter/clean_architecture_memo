@@ -1,7 +1,7 @@
 package usecase
 
 import (
-	"github.com/daleksprinter/clean_todo/server/domain"
+	"github.com/daleksprinter/clean_todo/backend/domain"
 
 	"fmt"
 )

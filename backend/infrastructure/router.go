@@ -1,7 +1,7 @@
 package infrastructure
 
 import (
-	"github.com/daleksprinter/clean_todo/server/interfaces/controller"
+	"github.com/daleksprinter/clean_todo/backend/interfaces/controller"
 	"github.com/gorilla/mux"
 )
 
